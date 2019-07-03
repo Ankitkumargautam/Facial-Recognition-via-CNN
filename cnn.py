@@ -77,9 +77,9 @@ mj = joblib.load('model_joblib')
 
 import numpy as np
 from keras.preprocessing import image
-test_image = image.load_img('dataset/test_set/dogs/2017-07-13-23-03-24-501.jpg', target_size = (64, 64))
+test_image = image.load_img('dataset/test_set/ankit/2017-07-13-23-03-24-501.jpg', target_size = (64, 64))
 
-test_image = image.load_img('dataset/test_set/cats/Screenshot (339).png', target_size = (64, 64))
+test_image = image.load_img('dataset/test_set/ironman/Screenshot (339).png', target_size = (64, 64))
 
 test_image
 # This is test img
